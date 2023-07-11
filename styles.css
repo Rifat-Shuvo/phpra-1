@@ -26,6 +26,7 @@
 }
 .btn{
     background-color: rgb(245, 90, 116);
+    color: #fff;
     padding: 15px 25px;
     border: 0;
     border-radius: 7px;
@@ -57,4 +58,30 @@
 .hot-img{
     width: 300px;
     height: 400px;
+}
+.social-media{
+    margin: 65px;
+}
+
+.social-text{
+    text-align: center;
+}
+.social-title{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+.social-dec{
+    font-size: 14px;
+    color: rgb(71, 70, 70);
+    margin-bottom: 35px;
+}
+.photo-container{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.social-photo{
+    height: 242px;
+    width: 296px;
 }
