@@ -61,18 +61,21 @@
 .featured-img1{
     width: 300px;
     height: 400px;
+    padding: 20px;
     background-color: rgba(167, 33, 98, 0.15);
     border-radius: 50% 50% 0% 0%;
 }
 .featured-img2{
     width: 300px;
     height: 400px;
+    padding: 20px;
     background-color: rgba(5, 151, 160, 0.15);
     border-radius: 50% 50% 0% 0%;
 }
 .featured-img3{
     width: 300px;
     height: 400px;
+    padding: 20px;
     background-color: rgba(71, 125, 17, 0.15);
     border-radius: 50% 50% 0% 0%;
 }
@@ -83,6 +86,27 @@ figcaption{
     margin-top: 15px;
     margin-bottom: 25px;
 }
+.testimonial{
+   background-image: linear-gradient(-90deg, rgb(248, 151, 167), rgb(236, 227, 227));
+   margin: 85px 0px;
+   text-align: center;
+   padding: 85px;
+}
+
+.my-photo{
+    margin: 20px;
+    height: 150px;
+    width: 100px;
+    border-radius: 50%;
+}
+.my-name{
+    margin-bottom: 20px;
+   text-decoration: 3px underline rgb(226, 75, 100);
+}
+.my-opinion{
+    font-size: 16px;
+    color: rgb(70, 68, 68);
+}
 
 .hotdel{
     display: flex;
@@ -90,7 +114,7 @@ figcaption{
     align-items: center;
     background: rgba(229, 84, 115, 0.05);
     padding: 0px 65px;
-    margin-bottom: 85px;
+    margin-bottom: 125px;
 }
 .hot-text{
     text-align: center;
@@ -125,12 +149,13 @@ figcaption{
 }
 .social-dec{
     font-size: 14px;
-    color: rgb(71, 70, 70);
+    color: rgb(116, 113, 113);
     margin-bottom: 35px;
 }
 .photo-container{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 14px;
 }
 .social-photo{
@@ -144,13 +169,13 @@ figcaption{
     background-size: cover;
     width: 80%;
     margin: auto;
+    text-align: center;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
-.subscribe-container{
-    text-align: center;
-    padding-left: 35%;
-}
+
+
 input[type=text]{
     width: 100%;
     background-color: #f5e0e0;
@@ -166,8 +191,8 @@ input[type=text]{
 .btn2{
     background-color: rgb(245, 90, 116);
     color: #fff;
-    padding: 0 12px;
     border: 0;
+    padding: 0px 12px;
     margin-left: 7px;
     border-radius: 5px;
 }
