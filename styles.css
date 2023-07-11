@@ -60,7 +60,9 @@
     height: 400px;
 }
 .social-media{
-    margin: 65px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 65px;
 }
 
 .social-text{
@@ -84,4 +86,38 @@
 .social-photo{
     height: 242px;
     width: 296px;
+}
+.subscribe{
+    height: 40vh;
+    background-image: url("Flower Asset/Rectangle 9.png");
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.subscribe-container{
+    text-align: center;
+    padding-left: 35%;
+}
+input[type=text]{
+    width: 100%;
+    background-color: #f5e0e0;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 0;
+    box-sizing: border-box;
+}
+.form{
+    display: flex;
+}
+.btn2{
+    background-color: rgb(245, 90, 116);
+    color: #fff;
+    padding: 0 12px;
+    border: 0;
+    margin-left: 7px;
+    border-radius: 5px;
 }
